@@ -1,0 +1,58 @@
+h2{
+    text-align: center;
+    font-family: 'Libre Baskerville', seri;
+}
+a{
+    margin:auto;
+}
+#wrapper{
+    margin:auto;
+    width:80%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    border: 1px black solid;
+    box-shadow: 4px 3px gray;
+}
+.logo {
+    width:70%;
+    display:block;
+}
+#gym {
+    grid-column:1/2;
+    grid-row:auto;
+    min-width:500px;
+    max-width:500px;
+    margin:auto;
+}
+#dojo {
+    padding-top:5.5em;
+    min-width:500px;
+    max-width:500px;
+    grid-column:2/3;
+    grid-row:auto;
+    margin:auto;
+}
+@media only screen and (max-width:1280px) {
+    #wrapper{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    #gym
+    {
+        padding:auto;
+        margin:auto;
+        max-width:1000px;
+    }
+    #dojo{
+        padding:auto;
+        margin:auto;
+        max-width:1000px;
+    }
+}
+@media only screen and (max-width:650px){
+    #wrapper{
+        box-shadow:none;
+        border:none;
+    }
+}
