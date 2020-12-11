@@ -9841,3 +9841,8 @@ textarea.form-control {
     height:0%;
   }
 }
+.herotext {
+  background-color:black;
+  opacity:5;
+  border-radius:24px;
+}

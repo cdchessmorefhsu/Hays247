@@ -26,7 +26,6 @@ a{
     margin:auto;
 }
 #dojo {
-    padding-top:5.5em;
     min-width:500px;
     max-width:500px;
     grid-column:2/3;
