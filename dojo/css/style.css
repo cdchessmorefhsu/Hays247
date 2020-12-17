@@ -57,7 +57,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -451,7 +451,8 @@ pre {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  }
   @media (min-width: 576px) {
     .container {
       max-width: 540px; } }
@@ -8168,7 +8169,7 @@ h1, h2, h3, h4, h5,
   color: #ffb5b5 !important; }
 
 .ftco-navbar-light {
-  background: transparent !important;
+  /*background: transparent !important;*/
   position: relative;
   z-index: 3;
   padding: 0; }
@@ -9845,4 +9846,7 @@ textarea.form-control {
   background-color:black;
   opacity:5;
   border-radius:24px;
+}
+nav {
+  background:#fff;
 }
