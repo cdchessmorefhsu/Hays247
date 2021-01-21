@@ -8163,7 +8163,7 @@ h1, h2, h3, h4, h5,
   line-height: 1.4;
   color: #2c396b;
   font-weight: 400;
-  font-family: "EB Garamond", serif; }
+  font-family: "EB Garamond", serif;; }
 
 .text-primary {
   color: #ffb5b5 !important; }
@@ -8274,7 +8274,10 @@ h1, h2, h3, h4, h5,
     @media (max-width: 767.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
         padding-left: 15px;
-        padding-right: 15px; } }
+        padding-right: 15px; }
+      .tenets {
+        text-decoration: underline;
+      } }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
         color: #fff;
