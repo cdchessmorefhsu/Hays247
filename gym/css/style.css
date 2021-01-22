@@ -614,6 +614,7 @@ p.m_5 {
 }
 div#portfoliolist {
   padding: 0.5% 0px;
+  overflow:scroll;
 }
 .project h5 {
   color: #334D72;
@@ -1314,7 +1315,6 @@ p.gal-txt {
 	}
 }
 
-}
 @media (max-width: 1366px){
 	.middl-text a h1 {
 	  font-size: 8em;
@@ -2274,3 +2274,4 @@ p.gal-txt {
 	#aboutimg {
 		width:100%;
 	}
+}

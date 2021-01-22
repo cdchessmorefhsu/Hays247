@@ -1585,6 +1585,7 @@ pre {
   display: block;
   width: 100%;
   overflow-x: auto;
+  overflow:scroll;
   -webkit-overflow-scrolling: touch; }
   .table-responsive > .table-bordered {
     border: 0; }
